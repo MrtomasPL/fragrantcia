@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>FRAGRANTERIA</h1>
+            </a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Wyszukaj perfumy">
+            <button onclick="searchPerfume()">Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <button id="perfumy-button" >Wiadomości</button>
+            <button id="perfumy-button" onclick="showPerfumes()">Perfumy</button>
+            <button id="perfumy-button" >Nuty</button>
+            <button id="perfumy-button">O nas</button>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="perfume-list" class="perfum-list hidden"></section>
+
+        <section class="articles">
+            <div class="article">
+                <img src="https://amisell.pl/15429-large_default/escentric-molecules-the-beautiful-mind-series-vol2-precision--grace.webp" alt="Placeholder image">
+                <h2>Symbioza pojęć: Pachnący Balet Volume 2 Precision & Grace</h2>
+                <p>Recenzje redakcji autor Italo Pereira</p>
+                <p>W przypadku niektórych perfum udaje się po mistrzowsku...</p>
+                <button onclick="location.href='article-detail.html?id=1'">Czytaj więcej</button>
+            </div>
+            <div class="article">
+                <img src="https://i.etsystatic.com/38777029/r/il/ba4b8a/6234567020/il_1080xN.6234567020_ue13.jpg" alt="Placeholder image">
+                <h2>Imaginary Authors Dipped in Chocolate</h2>
+                <p>Perfumy niszowe autor Igor Masuykov</p>
+                <p>"Czy ciemność, której zawsze się potajemnie bałeś...</p>
+                <button onclick="location.href='article-detail.html?id=2'">Czytaj więcej</button>
+                  
+            </div>
+            <div class="article">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzbEvl-oH5AZWWaxGaimASwPcTM9H3-OmCw&s" alt="Placeholder image">
+                <h2>Dawne straszne opowieści</h2>
+                <p>Publicystyka autor Elena Prokofeva</p>
+                <p>Sięgnij po książkę i perfumy... zapachy i historie na...</p>
+                <button onclick="location.href='article-detail.html?id=3'">Czytaj więcej</button>
+               
+            </div>
+        </section>
+
+        <section class="new-perfumes">
+            <h3>Nowe Perfumy</h3>
+            <div class="perfume-item">
+                <img src="https://terenziboutique.pl/79-large_default/tiziana-terenzi-kirke-extrait-de-parfum-100-ml.jpg" alt="Perfume placeholder">
+                <span>Tiziana Terenzi - Kirke</span>
+            </div>
+            <div class="perfume-item">
+                <img src="https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//c/h/chloe-l-eau-de-parfum-lumineuse-100ml_1.png" alt="Perfume placeholder">
+                <span>Chloé - L'Eau de Parfum Lumineuse</span>
+            </div>
+            <div class="perfume-item">
+                <img src="https://cb0252f2.rocketcdn.me/wp-content/uploads/2024/03/TERIAQ-PERFUME-BOTTLE-800x800-1.png" alt="Perfume placeholder">
+                <span>Lattafa Perfumes - Teriq</span>
+            </div>
+            <div class="perfume-item">
+                <img src="https://www.perfumeria.pl/cdn/shop/files/86893651712585518.jpg?crop=center&height=650&v=1712586192&width=650" alt="Perfume placeholder">
+                <span>Histoires de Parfums - Tubereuse 2 Virginale</span>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

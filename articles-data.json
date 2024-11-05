@@ -1,0 +1,23 @@
+{
+    "articles": [
+      {
+        "id": "1",
+        "title": "Symbioza pojęć: Pachnący Balet Volume 2 Precision & Grace",
+        "summary": "W przypadku niektórych perfum udaje się po mistrzowsku zrealizować ich koncepcje...",
+        "description": "Pełny opis artykułu o Pachnącym Balecie Volume 2 - pełen wdzięku i precyzji zapachowych ekspresji."
+      },
+      {
+        "id": "2",
+        "title": "Imaginary Authors Dipped in Chocolate",
+        "summary": "Czy ciemność, której zawsze się potajemnie bałeś, jest tym, co kochasz najbardziej?",
+        "description": "Pełny opis artykułu o Imaginary Authors Dipped in Chocolate - zapach, który budzi zmysły."
+      },
+      {
+        "id": "3",
+        "title": "Dawne straszne opowieści",
+        "summary": "Sięgnij po książkę i perfumy... zapachy i historie na najciemniejszą porę roku",
+        "description": "Pełny opis artykułu o dawnych strasznych opowieściach i ich zapachach."
+      }
+    ]
+  }
+  
